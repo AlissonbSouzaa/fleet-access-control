@@ -1,0 +1,85 @@
+@media (max-width: 1200px) {
+  .dashboard-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .simple-header {
+    padding: 22px 0;
+  }
+
+  .header-content {
+    align-items: flex-start;
+  }
+
+  .header-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .header-content p {
+    font-size: 0.9rem;
+  }
+
+  .main-simple {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+  .dashboard-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-card {
+    padding: 20px;
+  }
+
+  .table-header {
+    align-items: flex-start;
+  }
+
+  .filter-box {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-box select {
+    width: 100%;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro-box,
+  .form-panel form,
+  .relatorio-content {
+    padding: 18px;
+  }
+
+  .panel-header {
+    padding: 18px;
+  }
+
+  .table-responsive {
+    padding: 0 18px;
+  }
+
+  .dashboard-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dashboard-card .card-icon {
+    width: 70px;
+    height: 70px;
+  }
+}

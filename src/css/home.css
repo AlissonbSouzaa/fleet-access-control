@@ -1,0 +1,72 @@
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.dashboard-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: 22px;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-left: 4px solid transparent;
+  min-height: 120px;
+}
+
+.dashboard-card .card-icon {
+  width: 76px;
+  height: 76px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: transparent;
+}
+
+.dashboard-card .card-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.dashboard-card h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+  color: var(--color-text);
+}
+
+.dashboard-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 4px 0 6px;
+}
+
+.dashboard-card p {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.dashboard-card.blue {
+  border-left-color: var(--color-blue);
+}
+
+.dashboard-card.yellow {
+  border-left-color: var(--color-yellow);
+}
+
+.dashboard-card.purple {
+  border-left-color: var(--color-purple);
+}
+
+.dashboard-card.green {
+  border-left-color: var(--color-green);
+}
