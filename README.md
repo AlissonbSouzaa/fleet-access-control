@@ -4,10 +4,10 @@ Projeto P2 Linguagem de programação
 
 ## Integrantes
 
-- Alisson Augusto Borges de Souza
-- João Henrique Pereira Cavassana
-- Rafael Coltro
-- Tiago Monteiro
+- Alisson
+- João
+- Rafael
+- Tiago
 
 ## Sobre o projeto
 
@@ -26,6 +26,3 @@ Nele é possível cadastrar veículos, visualizar os dados em uma tabela, filtra
 
 Os dados cadastrados ficam salvos no próprio navegador usando localStorage.
 Assim, mesmo atualizando a página, os veículos continuam aparecendo na tabela.
-
-caso esteja com alguma falha ou imagem comrrompida o site está disponível online:
-https://testetrabalhodoed.alissonaugusto.tech/
